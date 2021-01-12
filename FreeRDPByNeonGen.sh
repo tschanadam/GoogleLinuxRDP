@@ -22,7 +22,7 @@ sudo adduser CuteWolfie chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Complete " >&2 ||
 printf "\nError Occured " >&2
-printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
+printf '\nCheck https://remotedesktop.google.com/headless Press begin, then next, then authorize DO NOT DOWNLOAD THE THINGS LISTED Copy Command Of Debian Linux And Paste Down\n'
 read -p "Paste Here: " CRP
 su - CuteWolfie -c """$CRP"""
 printf 'Access Your RDP At https://remotedesktop.google.com/access/ \n\n'
